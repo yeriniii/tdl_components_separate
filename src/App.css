@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+body {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  margin: 20px 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container {
+  border-style: hidden;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.addBtn {
+  margin-left: 10px;
+  background-color: teal;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
   color: white;
+  font-weight: bold;
+}
+.addBtn:hover {
+  background-color: #d9534f;
+}
+form > input {
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.workingTodo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.work {
+  width: 300px;
+  height: 200px;
+  border: 5px solid teal;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.button > button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px;
+  font-weight: bold;
 }
