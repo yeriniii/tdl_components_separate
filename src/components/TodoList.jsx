@@ -1,4 +1,4 @@
-import TodoItem from "./TodoItem";
+import TodoItem from "./Todo";
 
 const TodoList = ({ headtitle, todos, onDeleteTodoItem, onToggleTodoItem }) => {
   return (

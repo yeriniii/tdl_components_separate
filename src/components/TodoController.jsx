@@ -1,5 +1,5 @@
 import { useState } from "react";
-import TodoForm from "./TodoForm";
+import TodoForm from "./InputArea";
 import TodoList from "./TodoList";
 
 const TodoController = () => {
